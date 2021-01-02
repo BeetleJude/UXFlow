@@ -1,0 +1,247 @@
+@media (prefers-color-scheme: light) {
+    .wrapone{
+        background-color: #FFFFFF;
+        
+
+    }
+    .navbar :hover{
+        color:#3651DD;
+     
+     }
+     .navbar{
+        color:#95959A;
+     }
+     .but2{
+        background: #4261FF;
+        border-radius: 10px;
+        opacity: 1;
+        border: none;
+        height: 50px;
+        width: 260px;
+        color: #FFFFFF;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-right: auto;
+    margin-left: auto;
+    }
+        
+}
+
+@media (prefers-color-scheme: dark) {
+    .but2{
+        background: #4261FF;
+        border-radius: 10px;
+        opacity: 1;
+        border: none;
+        height: 50px;
+        width: 260px;
+        color: #FFFFFF;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-right: auto;
+    margin-left: auto;
+    }
+    .styletext{
+        color: #FFFFFF;
+    }
+    .wrapone{
+        background-color: #222121;
+        
+
+    }
+    
+    .wraptwo{
+        
+        background-color: #222121;
+       
+     }
+     .wraptree{
+        background-color: #272727;
+    }
+  .wrapfour{
+    background-color: #222121;
+  }
+  footer {
+   
+    background-color: #131212;
+}
+.navbar :hover{
+    color: #95959A;
+ 
+ }
+.navbar {
+     color:#ffffff;
+     }
+ 
+}
+
+ 
+@font-face {
+    font-family: 'Ubuntu';
+    src: url('Ubuntu-Regular.ttf');
+    
+}
+
+.wrapone{
+    
+    position: fixed;
+    box-shadow:  0px 3px 12px #0000005F;
+    opacity: 1;
+    z-index: 1;
+    padding:10px;
+    padding-top: 30px;
+    margin: auto;
+
+    
+}
+.positionlogo{
+    justify-content: left;
+    text-align: left;
+    float: left; 
+    padding-left: 10%;
+    
+}
+.navbar {
+   letter-spacing: 2px;
+    text-align: right;
+    float: right; 
+    text-decoration: none;
+    padding-right: 10%;
+    font-family: 'Ubuntu';
+    }
+    
+    .positionlogo:hover {
+        transform: scale(1.1);
+    }
+
+
+li{
+   display: inline-block;
+   padding-left:44px;
+}
+.but{
+    background: #4261FF;
+    border-radius: 10px;
+    opacity: 1;
+    border: none;
+    height: 40px;
+    width: 180px;
+    color: #FFFFFF;
+    
+}
+
+.but:hover {
+background-color: #3651DD;
+color: #FFFFFF;
+
+}
+.wraptwo{
+    background-image: url(img/bg.svg);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+    padding-bottom: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+   
+
+}
+.wraptree{
+    height: 800px;
+   
+   
+}
+.wrapfour{
+    
+    height: 992px;
+}
+footer {
+    height: 168px;
+    padding-top: 75px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.but2{
+    margin-top: 80px;
+    background: #4261FF;
+    border-radius: 10px;
+    opacity: 1;
+    border: none;
+    height: 50px;
+    width: 250;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    padding-top: 13px;
+    display: flex;
+    justify-content: center;
+    
+
+    
+    
+}
+.but2:hover {
+    background-color: #3651DD;
+    color: #FFFFFF;
+   
+    }
+
+.textcontainer{
+    padding-top: 200px;
+    color: #FFFFFF;
+}
+.styletext{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+   
+   
+    
+}
+.textone{
+    font-family: 'Merriweather', serif;
+    src: url('Merriweather-Bold.ttf')
+}
+
+.card1{
+    width: 100%;
+    height: 250px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    
+}
+
+.but3{
+    margin-top: 80px;
+    background: #4261FF;
+    border-radius: 10px;
+    opacity: 1;
+    border: none;
+    height: 50px;
+    width: 250;
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    padding-top: 13px;
+    display: flex;
+    justify-content: center;
+}
+.stylepos{
+
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+
+}
+
+
+
+
