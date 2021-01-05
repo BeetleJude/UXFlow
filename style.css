@@ -9,7 +9,13 @@ html {
   a:visited {
     text-decoration: none;
   }
-  
+  ul a :hover{
+        color:#3651DD;
+     
+     }
+     ul a{
+        color:#95959A;
+     }
   a:hover {
     text-decoration: none;
   }
@@ -42,13 +48,7 @@ html {
         
 
     }
-    ul :hover{
-        color:#3651DD;
-     
-     }
-     ul{
-        color:#95959A;
-     }
+    
      .but2{
         background: #4261FF;
         border-radius: 10px;
@@ -153,11 +153,11 @@ html {
    
     background-color: #131212;
 }
-ul :hover{
-    color: #95959A;
+ul a :hover{
+    color: #95959A ;
  
  }
-ul {
+ul a{
      color:#ffffff;
      }
  
