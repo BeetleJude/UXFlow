@@ -19,24 +19,25 @@
       <picture>
         <source srcset="img/icon_web_dark.svg" media="(prefers-color-scheme: dark)"/>
         <source srcset="img/icon_web.svg" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)"/>
-        <img loading="lazy" src="img/icon_web.svg" alt="web design icon" height="35px;" class="positionlogo">
+       <img loading="lazy" src="img/icon_web.svg" alt="web design icon" height="35px;" class="positionlogo" href="#section1"> 
      </picture>
-        <ul class="navbar"> 
-            <li>Guida</li>
-            <li>Contenuti</li>
-            <li>Contatti</li>
-            <li><button class="but">Scarica Guida</button></li>
+        <ul> 
+            <li ><a href="#section2">Guida</a></li>
+            <li ><a href="#section3">Contenuti</a></li>
+            <li ><a href="#section4">Contatti</a></li>
+            <li ><button class="but" pd-popup-open="popupNew" href="#" class="btn btn-success" >Scarica Guida</button></li>
         </ul>
   </div>
   </div>
    </header>
-    <section>
+    <section id="section1" >
+
       <div class="container-fluid wraptwo ">
         <div class="styletext">
             <img class=" wow animate__zoomIn"src="img/anim.svg" height="35%">
             <h1 class="textone wow animate__slideInUp">Lean & Agile</h1>
             <p class="textwo wow fadeIn">Impara a ridurre gli sperchi e lavorare in team, questa guida contiene i metodi più utilizzati per la riuscita di un progetto.<br> Dall'idea fino alla creazione di un prototipo funzionante con i realtivi test</p>
-             <div class="but2"pd-popup-open="popupNew" href="#" class="btn btn-success">Scarica Guida</div> 
+             <div class="but2" pd-popup-open="popupNew" href="#" class="btn btn-success">Scarica Guida</div> 
              </div>
          </div>
          <div class="container">  
@@ -50,7 +51,8 @@
           </div>
          </div>
  </section>
-    <section>
+    <section id="section2">
+
       <div class="container-fluid wraptree">
         <div class="container-fluid">
           <div class="row">
@@ -73,7 +75,7 @@
         </div>
       </div>
    </section>
-   <section>
+   <section id="section3">
     <div class="container-fluid wrapfour">
       <div class="row">
         <div class="col-xl-6">
@@ -130,7 +132,7 @@
       </div>
     </div>
  </section>
- <section>
+ <section id="section4">
   <div class="container-fluid wrapfive">
     <div class="contentform">
  <div class="row">
@@ -189,6 +191,14 @@
           e.preventDefault();
       });
   });</script>
+
+<!-- JS SMOOTH SCROLL -->
+
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+<script>
+	var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+
 
 
    
