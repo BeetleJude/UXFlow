@@ -415,6 +415,7 @@ footer {
   border-color: #3651DD !important;
 }
   .popup {
+    
     overflow: hidden;
     position: fixed;
     z-index: 1;
@@ -440,6 +441,7 @@ footer {
   }
   
   .popup-inner {
+    
     display: inline-block;
     text-align: left;
     vertical-align: middle;
@@ -464,6 +466,7 @@ footer {
   }
   
   .popup-close {
+    margin: 20px;
     width: 34px;
     height: 34px;
     padding-top: 4px;
@@ -551,6 +554,7 @@ footer {
     visibility: hidden;
   }
  }
+ 
  
 
 
