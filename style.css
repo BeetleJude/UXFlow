@@ -1,4 +1,24 @@
 @media (prefers-color-scheme: light) {
+  .popup-inner{
+    background: #fff;
+  }
+  .textalign2{
+    color: black;
+  }
+  .textalign{
+    color: black;
+  }
+  .wraptree{
+    background-color: #F8FAFF;
+  }
+  .wrapfive{
+    background-color: #F8FAFF;
+  }
+  .contentform{
+    background-color:#fff;
+    box-shadow: 0px 3px 6px #DDE2FF;
+    opacity: 1;
+  }
     .wrapone{
         background-color: #FFFFFF;
         
@@ -23,12 +43,40 @@
         display: flex;
         justify-content: center;
         margin-right: auto;
-    margin-left: auto;
+        margin-left: auto;
     }
-        
+    .card1{
+      background-color: #F8FAFF;
+      box-shadow: 0px 3px 6px #DDE2FF;
+      opacity: 1;
+
+    }
+    .textalign3{
+      color:black;
+  
+    }
 }
 
 @media (prefers-color-scheme: dark) {
+  .popup-inner{
+    background:  #404040;
+  }
+  .textalign3{
+    color: #fff;
+
+  }
+  .textalign2{
+    color: #fff;
+  }
+  .textalign{
+    color: #fff;
+  }
+  .contentform{
+    background-color: #404040;
+  }
+  .card1{
+    background-color: #404040;
+  }
   
     .but2{
         background: #4261FF;
@@ -148,7 +196,6 @@ color: #FFFFFF;
     display: flex;
     justify-content: center;
     padding-top: 12%;
-    padding-bottom: 12%;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -174,15 +221,13 @@ color: #FFFFFF;
 }
 .textalign2{
   text-align: right;
-  color: #FFFFFF;
   padding-top: 12%;
   padding-left: 12%;
   padding-right: 12%;
 }
 .textalign{
   text-align: left;
-  color: #FFFFFF;
-  padding-top: 12%;
+  padding-top: 10%;
   padding-left: 12%;
   padding-right: 12%;
 }
@@ -251,7 +296,10 @@ footer {
 }
 .textone{
     font-family: 'Merriweather', serif;
-    src: url('Merriweather-Bold.ttf')
+    src: url('Merriweather-Bold.ttf');
+    padding-top: 20px;
+   
+  
 }
 
 .card1{
@@ -261,7 +309,7 @@ footer {
     height: 250px;
     margin-bottom: 16px;
     margin-top: 16px;
-    background-color: #404040;
+  
     border-radius: 6px;
     
     
@@ -357,7 +405,7 @@ footer {
     padding: 40px;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 1);
     border-radius: 3px;
-    background: #fff;
+   
     text-align: center;
   }
   
@@ -418,9 +466,9 @@ footer {
     background: #fff;
   }
   .contentform{
-    background-color: #404040;
+    
     height: 100%;
-    width: 60%;
+    width: 95%;
     padding: 30px;
     text-align: center;
     margin: auto;
@@ -448,4 +496,7 @@ footer {
   }
   .but3:hover{
    background-color: #3651DD;
+}
+.textwo {
+  font-size: 22px;
 }
